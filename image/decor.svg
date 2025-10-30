@@ -1,0 +1,9 @@
+<svg viewBox="0 0 905.015 438.028" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="905.015381" height="438.027588" fill="none" customFrame="#000000">
+	<defs>
+		<linearGradient id="paint_linear_0" x1="686.478882" x2="-22.5932007" y1="14.2473755" y2="101.592918" gradientUnits="userSpaceOnUse">
+			<stop stop-color="rgb(69,129,247)" offset="0" stop-opacity="0.610000014" />
+			<stop stop-color="rgb(69,129,247)" offset="0.862691343" stop-opacity="0" />
+		</linearGradient>
+	</defs>
+	<rect id="Rectangle 76" width="868.580383" height="289.241882" x="0.000000" y="0.000000" fill="url(#paint_linear_0)" transform="matrix(0.984333,-0.176319,0.173015,0.984919,0,153.148)" />
+</svg>
