@@ -1,0 +1,129 @@
+.genres {
+  margin-bottom: 97px;
+}
+.slider {
+    width: 100%;
+    max-width: 900px;
+    overflow: hidden;
+    position: relative;
+    height: 480px;
+    &__wrapper {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+    &__item {
+        flex: 0 0 25.33%;
+        width: 33.33%;
+        padding: 10px;
+        box-sizing: border-box;
+        text-align: center;
+       
+        color: #f6f6f6;
+        position: relative;
+          &:hover {
+        transform: scale(1.1);
+    }
+    }
+    &__controls {
+        position: absolute;
+        top: 75%;
+        left: 88%;
+        transform: translateY(-50%);
+        width: 100%;
+        display: flex;
+        gap: 15px;
+        align-items: center;
+    }
+    
+    &__button {
+       background: transparent;
+        border-radius: 50%;
+        padding: 20px 20px;
+        cursor: pointer;
+ 
+      
+    }
+   &__img {
+  
+
+   }
+    &__button-prev {
+        background-image: url(../image/arow-left.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 30px;
+
+
+    }
+    &__button-next {
+        background-image: url(../image/arow-right.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 30px;
+    }
+    
+
+&__text{
+    color: $white;
+
+font-family: "montserrat-semibold";
+font-size: clamp(0.813rem, 0.795rem + 0.09vw, 0.875rem);
+font-weight: 600;
+line-height: 1.6em;
+ 
+    backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255, 0.4);
+    position: absolute;
+    bottom: 140px;
+    width: 205px;
+    padding: 10px 10px;
+    &:hover {
+        background-color: $bg-btn;
+    }
+
+}
+}
+
+.genres-flex {
+    display: flex;
+    gap: 29px;
+}
+.genres-block {
+    &__title {
+color: rgba(54, 54, 54, 1);
+
+  font-family: "montserrat-semibold";
+font-size:clamp(1rem, 0.839rem + 0.8vw, 1.563rem); // max 25 min 16
+text-transform: uppercase;
+max-width: 372px;
+margin-bottom: 13px;
+    }
+    &__descr {
+        p {
+    color: $black;
+    font-family: "montserrat-regular";
+    font-size:clamp(0.875rem, 0.839rem + 0.18vw, 1rem); // max 16 min 14
+    max-width: 400px;
+        }
+
+    }
+}
+.glav-block {
+    display: flex;
+    gap: 29px;
+}
+
+
+@media (max-width: 768px) {
+    .slider__item {
+        flex: 0 0 50%;
+        width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    .slider__item {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+}
