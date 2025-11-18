@@ -1,0 +1,48 @@
+.hero {
+  min-height: 650px;
+  margin-bottom: 60px;
+  background: $liner-grad;
+
+}
+
+.hero-block {
+  border-radius: 25px;
+  display: flex;
+  gap: 191px;
+  padding-top: 119px;
+  margin-bottom: 47px;
+  &__content {
+    padding-top: 49px;
+  }
+  &__title {
+    font-family: "inter-bold";
+    font-size: clamp(1.25rem, 0.939rem + 1.55vw, 2.25rem); //max 36 min 20px
+    font-weight: 700;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    margin-bottom: 34px;
+    max-width: 628px;
+  }
+  &__description {
+    p {
+      max-width: 544px;
+      font-family: "montserrat-regular";
+      font-size: clamp(1rem, 0.922rem + 0.39vw, 1.25rem); //max 20px min 16px
+      margin-bottom: 51px;
+    }
+  }
+  &__btn {
+    display: inline-flex;
+    background: $bg-btn;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 4px;
+    color: $white;
+    &:hover {
+      background:  $black;
+     transform: scale(1.1);
+     color: $white;
+    }
+  }
+}
+
