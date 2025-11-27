@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="добавь описание проекту">
+    <title>WorldRead</title>
+     <link rel="shortcut icon" href="./image/World_Read.svg" type="image/x-icon"> <!-- иконка на вкладку-->
+    <link rel="stylesheet" href="./css/main.css">
+    
+</head>
+<body>
+<!-- Используйте для изображений WebP вместо JPEG или PNG . -->
+   <!-- минимальное размер шрифта должен быть 12px -->
+  <header class="header">
+    <div class="container">
+        <div class="header-block">
+            <!-- Логотип -->
+            <a href="#" class="header__logo">
+                <img src="./image/World_Read.svg" alt="Логотип">
+            </a>
+            <!-- Меню -->
+            <div class="header__menu menu">
+                <!-- Иконка меню (гамбургер) -->
+                <div class="menu__icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Навигация -->
+                <nav class="menu__body">
+                    <ul class="menu__list" >
+                        <!-- Элементы меню -->
+                        <li class="menu__item" ><a href="#about" class="menu__link">Главная</a></li>
+                        <li class="menu__item" ><a href="#portfolio" class="menu__link">О нас</a></li>
+                        <li class="menu__item" ><a href="#reviews" class="menu__link">Литература</a></li>
+                        <li class="menu__item" ><a href="#contacts" class="menu__link">Статьи</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+		
+  <main class="main">
+	<section class="hero">
+    <div class="container">
+        <div class="hero-block">
+            <div class="hero-block__content">
+                <h1 class="hero-block__title">Откройте мир литературы По новому</h1>
+                <div class="hero-block__description">
+                    <p>Наш сайт предлагает широкий выбор книг на множестве языков. Здесь вы найдете произведения мировой классики, современные бестселлеры, научную литературу и многое другое.</p>
+                </div>
+                <button class="hero-block__btn" aria-label="Выбор книги">Выбрать книгу</button>
+            </div>
+            <div class="hero-img">
+                <picture>  <source srcset="image/Hero.webp" type="image/webp">  <img src="./image/Hero.webp"  alt="Девушка за чтением" width="367" height="441" decoding="async" loading="lazy"></picture>
+            </div>
+        </div>
+    </div>
+</section>
+	<section class="about">
+    <div class="container">
+        <div class="about-block">
+            <div class="about-block__img">
+               <picture>
+                <source srcset="./image/about.webp" type="image/webp">
+                <img src="./image/about.webp" alt="Девушка за чтением" width="517" height="439" decoding="async" loading="lazy">
+               </picture>
+                <div class="about-poets">
+                    <a href="/" class="about-poets__link">
+                        <picture>
+                            <source srcset="./image/writers/Pushkin.webp" type="image/web">
+                        <img src="./image/writers/Pushkin.webp" alt="Пушкин" width="70" height="70" decoding="async" loading="lazy">
+                        </picture>
+                    </a>
+                    <a href="/" class="about-poets__link">
+                        <picture>
+                            <source srcset="./image/writers/Lermontov.webp" type="image/web">
+                        <img src="./image/writers/Lermontov.webp" alt="Лермонтов" width="70" height="70" decoding="async" loading="lazy">
+                        </picture>
+                    </a>
+                    <a href="/" class="about-poets__link">
+                        <picture>
+                            <source srcset="./image/writers/Chekhov.webp" type="image/web">
+                        <img class="elips-color" src="./image/writers/Chekhov.webp" alt="Чехов" width="70" height="70" decoding="async" loading="lazy">
+                        </picture>
+                    </a>
+                    <a href="/" class="about-poets__link">
+                        <picture>
+                            <source srcset="./image/writers/Tolstoy.webp" type="image/web">
+                        <img  class="elips-color"  src="./image/writers/Tolstoy.webp" alt="Толстой" width="70" height="70" decoding="async" loading="lazy">
+                        </picture>
+                    </a>
+                    <a href="/" class="about-poets__link">
+                        <picture>
+                            <source srcset="./image/writers/Yesenin.webp" type="image/web">
+                        <img src="./image/writers/Yesenin.webp" alt="Есенин" width="70" height="70" decoding="async" loading="lazy">
+                        </picture>
+                    </a>
+                </div>
+            </div>
+            <div class="about-content">
+                <h2 class="about-content__title">О нас</h2>
+                <div class="about-content__description">
+                    <p>WorldRead — это уникальная онлайн-платформа, посвященная всем любителям литературы и читателям, стремящимся открыть для себя новые произведения. Наш сайт предлагает обширную коллекцию литературных произведений различных жанров, от классики до современных бестселлеров.</p>
+                    <p>Наша цель — создать пространство для любителей книг, где каждый сможет найти что-то по своему вкусу, обсудить прочитанное и открыть для себя новые горизонты в мире литературы. WorldRead — это не просто сайт, это сообщество единомышленников, объединенных любовью к литературе!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+	<section class="project">
+        <h2 class="visually-hidden">Преимущество  компании</h2>
+    <div class="container">
+        <ul class="project-company" >
+            <li class="project-block" >
+           <span class="project-block__result">50+</span>  
+           <div class="project-block__descr">
+            <p>Happy  Clients</p>
+           </div>
+            </li>
+                <li class="project-block">
+           <span class="project-block__result">550+</span>  
+           <div class="project-block__descr">
+            <p>Projects Completed</p>
+           </div>
+            </li>
+                <li class="project-block">
+           <span class="project-block__result">250</span>  
+           <div class="project-block__descr">
+            <p>Dedicated Members</p>
+           </div>
+            </li>
+                <li class="project-block">
+           <span class="project-block__result">30+</span>  
+           <div class="project-block__descr">
+            <p>Awards Won</p>
+           </div>
+            </li>
+        
+        </ul>
+    </div>
+</section>
+<section class="genres">
+    <div class="container">
+        <div class="genres-flex">
+        <div class="genres-block">
+            <h2 class="genres-block__title">Выберите литературный жанр</h2>
+            <div class="genres-block__descr">
+                <p>Добро пожаловать в наш раздел выбора литературных жанров! Здесь вы можете погрузиться в мир книг, выбрав жанр, который наиболее соответствует вашему настроению и интересам. Независимо от того, ищете ли вы захватывающий роман, увлекательную повесть, поэтические строки или фантастические приключения, у нас есть что предложить.</p>
+            </div>
+        </div>
+
+       <div class="slider">
+        <div class="slider__wrapper">
+            <div class="slider__item"><a class="slider__item-link" href="/">
+                <picture>
+                    <source srcset="./image/genres/Romans.webp" type="image/webp">
+                    <img class="slider__item-img"  src="./image/genres/Romans.webp" alt="Романы"  width="200" height="300" decoding="async" loading="lazy">
+                </picture>
+                    <p class="slider__item-name">Романы</p></a></div>
+            <div class="slider__item"><a class="slider__item-link" href="/">
+                <picture>
+                    <source srcset="./image/genres/foreign_classic.webp" type="image/webp">
+                <img class="slider__item-img" src="./image/genres/russian_classic.webp" alt="Русская классика" width="200" height="300" decoding="async" >
+                </picture>
+                <p class="slider__item-name">Русская классика</p></a></div>
+            <div class="slider__item"><a class="slider__item-link" href="/">
+                <picture>
+                    <source srcset="./image/genres/foreign_classic.webp" type="image/webp">
+                <img class="slider__item-img" src="./image/genres/foreign_classic.webp" alt="Зарубежная классика" width="200" height="300" decoding="async" >
+                </picture>
+                <p class="slider__item-name">Зарубежная классика</p></a></div>
+            <div class="slider__item"><a class="slider__item-link" href="/">
+                <picture>
+                    <source srcset="./image/genres/foreign_classic2.webp" type="image/webp">
+                <img class="slider__item-img" src="./image/genres/foreign_classic2.webp" alt="Зарубежная классика" width="200" height="300" decoding="async">
+                </picture>
+                <p class="slider__item-name">Зарубежная классика</p></a></div>
+            <div class="slider__item"><a class="slider__item-link" href="/">
+                <picture>
+                    <source srcset="./image/genres/story.webp" type="image/webp">
+                <img class="slider__item-img" src="./image/genres/story.webp" alt="Повести" width="200" height="300" decoding="async">
+                </picture>
+                <p class="slider__item-name">Повести</p></a></div>
+            <div class="slider__item"><a class="slider__item-link" href="/">
+                <picture>
+                    <source srcset="./image/genres/faire_tales.webp" type="image/webp">
+                <img class="slider__item-img" src="./image/genres/faire_tales.webp" alt="Сказки" width="200" height="300" decoding="async">
+                </picture>
+                <p class="slider__item-name">Сказки</p></a>
+            </div>
+             <div class="slider__item"><a class="slider__item-link" href="/">
+                <picture>
+                    <source srcset="./image/genres/fantasy.webp" type="image/webp">
+                <img class="slider__item-img" src="./image/genres/fantasy.webp" alt="Фантастика" width="200" height="300" decoding="async">
+                </picture><p class="slider__item-name">Фантастика</p></a>
+            </div>
+             <div class="slider__item"><a class="slider__item-link" href="/">
+                <picture>
+                    <source srcset="./image/genres/history.webp" type="image/webp">
+                <img class="slider__item-img" src="./image/genres/history.webp" alt="История" width="200" height="300" decoding="async">
+                </picture>
+                <p class="slider__item-name">История</p></a>
+            </div>
+        </div>
+        <div class="slider__controls">
+            <button class="slider__button slider__button-prev" aria-label="перед"><img class="slider__button-img" src="./image/arow_left.svg" alt="стрелка назад"></button>
+            <button class="slider__button slider__button-next" aria-label="назад"><img class="slider__button-img" src="./image/arow_right.svg" alt="стрелка вперед"></button>
+        </div>
+    </div>
+
+  
+        </div>
+    </div>
+</section>
+<section class="quotes">
+   
+        <div class="quotes-slider">
+            <div class="quotes-slider__wrapper">
+            <div class="quotes-slider__item">
+                <div class="quotes-slider-block">
+                <h2 class="quotes-slider-block__title">Цитаты великих писателей</h2>
+                <picture>
+                    <source srcset="./image/quotes-slider/Leo_Tolstoy.webp" type="image/webp">
+                <img src="./image/quotes-slider/Leo_Tolstoy.webp" alt="Лев Толстой" width="525" height="505" class="quotes-slider-block__img" decoding="async" loading="lazy">
+                </picture>
+                </div>
+                <blockquote class="quotes-slider-quote">
+                    <p class="quotes-slider-quote__text">"Все счастливые семьи похожи друг на друга, каждая несчастливая семья несчастлива по-своему."</p>
+                </blockquote>
+            
+                <img src="./image/quotes-slider/decorquotes.svg" alt="декор кавычки" width="125" height="125" class="quotes-slider__decor" decoding="sync" loading="lazy">
+                <div class="quotes-slider-writes">
+                    <h3 class="quotes-slider-writes__title">Лев Толстой</h3>
+                    <p class="quotes-slider-writes__work">Произведение: "Анна Каренина"</p>
+                </div>
+            </div>
+             <div class="quotes-slider__item2">
+                <div class="quotes-slider-block">
+                <h2 class="quotes-slider-block__title">Цитаты великих писателей</h2>
+                <picture>
+                    <source srcset="./image/quotes-slider/Fedor_Dostoevsky.webp" type="image/webp">
+                <img src="./image/quotes-slider/Fedor_Dostoevsky.webp" alt="Федор Достоевский" width="525" height="505" class="quotes-slider-block__img" decoding="async" loading="lazy">
+                </picture>
+                </div>
+                <blockquote class="quotes-slider-quote">
+                    <p class="quotes-slider-quote__text">"Кто хочет, тот ищет возможности, кто не хочет, тот ищет причины."</p>
+                </blockquote>
+                <img src="./image/quotes-slider/decorquotes.svg" alt="декор кавычки" width="125" height="125" class="quotes-slider__decor2" decoding="sync" loading="lazy">
+                <div class="quotes-slider-writes">
+                    <h3 class="quotes-slider-writes__title">Фёдор Достоевский</h3>
+                    <p class="quotes-slider-writes__work">Произведение: "Сказки Белкина"</p>
+                </div>
+            </div>
+             <div class="quotes-slider__item">
+                <div class="quotes-slider-block">
+                <h2 class="quotes-slider-block__title">Цитаты великих писателей</h2>
+                <picture>
+                    <source srcset="./image/quotes-slider/Mark_Twain.webp" type="image/webp">
+                <img src="./image/quotes-slider/Mark_Twain.webp" alt="Марк Твен" width="525" height="505" class="quotes-slider-block__img" decoding="async" loading="lazy">
+                </picture>
+                </div>
+                <blockquote class="quotes-slider-quote">
+                    <p class="quotes-slider-quote__text">"Лучше быть ненавидимым за то, кто ты есть, чем любимым за то, кем ты не являешься."</p>
+                </blockquote>
+                <img src="./image/quotes-slider/decorquotes.svg" alt="декор кавычки" width="125" height="125" class="quotes-slider__decor" decoding="sync" loading="lazy">
+                <div class="quotes-slider-writes">
+                    <h3 class="quotes-slider-writes__title">Марк Твен</h3>
+                    <p class="quotes-slider-writes__work">Произведение: "Приключения Тома Сойера"</p>
+                </div>
+            </div>
+             <div class="quotes-slider__item">
+                <div class="quotes-slider-block">
+                <h2 class="quotes-slider-block__title">Цитаты великих писателей</h2>
+                <picture>
+                    <source srcset="./image/quotes-slider/Oscar_Wilde.webp" type="image/webp">
+                <img src="./image/quotes-slider/Oscar_Wilde.webp" alt="Оскар Уайлд" width="525" height="505" class="quotes-slider-block__img" decoding="async" loading="lazy">
+                </picture>
+                </div>
+                <blockquote class="quotes-slider-quote">
+                    <p class="quotes-slider-quote__text">"Будьте собой; все остальные роли уже заняты."</p>
+                </blockquote>
+                <img src="./image/quotes-slider/decorquotes.svg" alt="декор кавычки" width="125" height="125" class="quotes-slider__decor" decoding="sync" loading="lazy">
+                <div class="quotes-slider-writes">
+                    <h3 class="quotes-slider-writes__title">Оскар Уайльд</h3>
+                    <p class="quotes-slider-writes__work">Произведение: "Портрет Дориана Грея"</p>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+ 
+</section>  
+<section class="favorite-writers">
+    <div class="container">
+        <div class="favorite-writers-flex">
+       
+  <div class="slider">
+        <div class="slider__wrapper">
+            <div class="slider__item favorite-writers__item"><a href="/">
+                <picture>
+                    <source srcset="./image/writers/Stiven_King.webp" type="image/webp">
+                <img src="./image/writers/Stiven_King.webp" alt="Стивен Кинг"  width="200" height="300" decoding="async" loading="lazy">
+                </picture>
+                <p class="favorite-writers__name">Стивен Кинг</p></a></div>
+            <div class="slider__item favorite-writers__item"><a href="/">
+                <picture>
+                    <source srcset="./image/writers/Lev_Tolstoy.webp" type="image/webp">
+                <img src="./image/writers/Lev_Tolstoy.webp" alt="Лев Толстой"  width="200" height="300" decoding="async" loading="lazy">
+                </picture>
+                <p class= "favorite-writers__name">Лев Толстой</p></a></div>
+            <div class="slider__item favorite-writers__item"><a href="/">
+                <picture>
+                    <source srcset="./image/writers/Yilyam_Shekpirs.webp" type="image/webp">
+                <img src="./image/writers/Yilyam_Shekpirs.webp" alt="Ульям Шекспир"  width="200" height="300" decoding="async" loading="lazy">
+                </picture>
+                <p class= "favorite-writers__name">Ульям Шекспир</p></a></div>
+            <div class="slider__item favorite-writers__item"><a href="/">
+                <picture>
+                    <source srcset="./image/writers/Nikolay_Gogol.webp" type="image/webp">
+                <img src="./image/writers/Nikolay_Gogol.webp" alt="Николай Гоголь"  width="200" height="300" decoding="async" >
+                </picture>
+                <p class="favorite-writers__name">Николай Гоголь</p></a></div>
+            <div class="slider__item favorite-writers__item"><a href="/">
+                <picture>
+                    <source srcset="./image/writers/Anton_Chekhov.webp" type="image/webp">
+                <img src="./image/writers/Anton_Chekhov.webp" alt="Антон Чехов" width="200" height="300" decoding="async" >
+                </picture>
+                <p class="favorite-writers__name">Антон Чехов</p></a></div>
+            <div class="slider__item favorite-writers__item"><a href="/">
+                <picture>
+                    <source srcset="./image/writers/Ivan_Turgenev.webp" type="image/webp">
+                <img src="./image/writers/Ivan_Turgenev.webp" alt="Иван Тургенев" width="200" height="300" decoding="async">
+                </picture>
+                <p class="favorite-writers__name">Иван Тургенев</p></a>
+            </div>
+             <div class="slider__item favorite-writers__item"><a href="/">
+                <picture>
+                    <source srcset="./image/writers/Mark_Tven2.webp" type="image/webp">
+                <img src="./image/writers/Mark_Tven2.webp" alt="Марк Твен" width="200" height="300" decoding="async" >
+                </picture>
+                <p class="favorite-writers__name">Марк Твен</p></a>
+            </div>
+             <div class="slider__item favorite-writers__item"><a href="/">
+                <picture>
+                    <source srcset="./image/writers/Oscar_uayld.webp" type="image/webp">
+                <img src="./image/writers/Oscar_uayld.webp" alt="Оскар Уайльд" width="200" height="300" decoding="async">
+                </picture>
+                <p class="favorite-writers__name">Оскар Уйальд</p></a>
+            </div>
+        </div>
+        <div class="slider__controls favorite-writers__controls2">
+            <button class="slider__button slider__button-prev" aria-label="вперед"><img src="./image/arow_left.svg" alt="стрелка в лево"></button>
+            <button class="slider__button slider__button-next" aria-label="назад"><img src="./image/arow_right.svg" alt="стрелка в право"></button>
+        </div>
+    </div> 
+      <div class="choice">
+        <h2 class="choice__title">Выберите Любимого писателя</h2>
+        <div class="choice__descr">
+            <p>Добро пожаловать в наш раздел, посвященный великим мастерам слова! Здесь вы можете познакомиться с биографиями, произведениями и уникальными стилями самых известных писателей мира. </p>
+        </div>
+        <button class="choice__btn">Просмотреть всех</button>
+
+    </div>
+   
+        </div>
+    </div>
+</section>
+
+
+
+</main>
+  <footer class="footer"></footer>
+    <script src="./JavaScript/main.js"></script>
+</body>
+</html>
