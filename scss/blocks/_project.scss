@@ -1,0 +1,36 @@
+.project {
+  min-height: 400px;
+  color: $black;
+}
+
+
+.project-company {
+  display: flex;
+  gap: 82px;
+}
+.project-block {
+    background-image: url(../image/dekor.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 261px;
+    height: 371px;
+    text-align: center;
+    padding: 50px;
+  &__result {
+    display: inline-flex;
+      color: $bg-btn;
+       font-family: "inter-bold";
+      font-size: clamp(1.375rem, 0.786rem + 2.95vw, 3.438rem);//max 55 min 22
+      line-height: 1.2em;
+      margin-bottom: 30px;
+  
+  }
+  &__descr {
+    p {
+      font-family: "inter-semibold";
+      color: rgba(5, 0, 11, 1);
+      font-size: clamp(1rem, 0.929rem + 0.36vw, 1.25rem); //max 20 min 16
+      line-height: 1.6em;
+    }
+  }
+}

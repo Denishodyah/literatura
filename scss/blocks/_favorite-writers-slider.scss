@@ -1,0 +1,34 @@
+.favorite-writers {
+    color: black;
+    min-height: 350px;
+    &__controls2 {
+        position: absolute;
+        top: 80%;
+        left: 10px;
+        
+    }
+    &__item {
+        position: relative;
+    }
+    &__name {
+        position: absolute;
+            bottom: 15px;
+            left: 12px;
+            color: $black;
+            background: $white;
+            width: 87%;
+            text-align: center;
+            padding: 7px 5px;
+         font-family: "montserrat-semibold";
+        font-size: 14px;
+        line-height: 1.6em;
+        &:hover {
+            background: $bg-btn;
+            color: $white;
+        }
+        }
+}
+.favorite-writers-flex {
+     display: flex;
+    gap: 30px;
+}

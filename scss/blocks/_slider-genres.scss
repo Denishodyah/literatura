@@ -1,0 +1,125 @@
+.genres {
+  margin-bottom: 20px;
+}
+.slider {
+    width: 100%;
+    max-width: 900px;
+    min-height: 430px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 20px;
+    &__wrapper {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+    &__item {
+        flex: 0 0 25%; /* 4 блока на экране */
+        width: 25%;
+        padding: 10px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    &__item-link {
+         display: block;
+        text-decoration: none;
+        color: #333;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+&__controls {
+    position: absolute;
+    top: 85%;
+    left: 85%;
+    transform: translateY(-50%);
+    display: flex;
+    gap: 15px;
+   
+}
+   
+}
+
+
+
+
+
+.slider__button {
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 1);
+    padding: 15px 15px;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 50%;
+}
+
+
+
+
+.slider__item-name {
+    position: absolute;
+    top: 150px;
+    width: 200px;
+    padding: 7px;
+    backdrop-filter: blur(4px);
+background: rgba(255, 255, 255, 0.4);
+   font-family: "montserrat-semibold";
+   font-size: 14px;
+   line-height: 1.6em;
+&:hover {
+    background: $bg-btn;
+   
+
+}
+}
+.slider__button-img {
+    max-width: fit-content;
+
+}
+
+
+
+
+//
+.genres-flex {
+    display: flex;
+    gap: 29px;
+}
+.genres-block {
+    &__title {
+color: rgba(54, 54, 54, 1);
+
+  font-family: "montserrat-semibold";
+font-size:clamp(1rem, 0.839rem + 0.8vw, 1.563rem); // max 25 min 16
+text-transform: uppercase;
+max-width: 372px;
+margin-bottom: 13px;
+    }
+    &__descr {
+        p {
+    color: $black;
+    font-family: "montserrat-regular";
+    font-size:clamp(0.875rem, 0.839rem + 0.18vw, 1rem); // max 16 min 14
+    max-width: 400px;
+        }
+
+    }
+}
+.glav-block {
+    display: flex;
+    gap: 29px;
+}
+
+
+@media (max-width: 768px) {
+    .slider__item {
+        flex: 0 0 50%;
+        width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    .slider__item {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+}

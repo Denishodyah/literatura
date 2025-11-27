@@ -1,0 +1,40 @@
+.choice {
+    max-width: 372px;
+    
+    &__title {
+        color: rgba(54, 54, 54, 1);
+      font-family: "montserrat-semibold";
+    font-size: clamp(1.125rem, 0.989rem + 0.68vw, 1.5rem);// max 25 min 18
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+    }
+    &__descr {
+         p {
+            max-width: 313px;
+            color: $black;
+    font-family: "montserrat-regular";
+    font-size: 15px;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    margin-bottom: 21px;
+         }
+    }
+    &__btn {
+        display: inline-flex;
+        border: none;
+        background: $bg-btn;
+        color: $white;
+        padding: 10px 25px;
+        font-family: "montserrat-semibold";
+        font-size: 15px;
+        line-height: 1.6em;
+        &:hover {
+            background: $black;
+            color: $white;
+            transform: scale(1.1);
+    
+        }
+    }
+}
