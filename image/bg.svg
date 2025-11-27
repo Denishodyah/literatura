@@ -1,0 +1,21 @@
+<svg viewBox="0 0 1495.97 625" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1495.972168" height="625.000000" fill="none" customFrame="#000000">
+	<defs>
+		<linearGradient id="paint_linear_1" x1="975.84082" x2="14.4838257" y1="20.0844116" y2="241.706573" gradientUnits="userSpaceOnUse">
+			<stop stop-color="rgb(46.024,66.8205,240.125)" offset="0" stop-opacity="1" />
+			<stop stop-color="rgb(102,119.362,255)" offset="1" stop-opacity="1" />
+		</linearGradient>
+		<linearGradient id="paint_linear_2" x1="1295.46606" x2="-57.9505615" y1="41.3079834" y2="314.681885" gradientUnits="userSpaceOnUse">
+			<stop stop-color="rgb(0,28.6323,249.737)" offset="0" stop-opacity="0.25" />
+			<stop stop-color="rgb(137.062,150.498,255)" offset="1" stop-opacity="0.25" />
+		</linearGradient>
+		<linearGradient id="paint_linear_3" x1="686.444763" x2="-22.5600586" y1="14.2253418" y2="101.693802" gradientUnits="userSpaceOnUse">
+			<stop stop-color="rgb(69,129,247)" offset="0" stop-opacity="0.610000014" />
+			<stop stop-color="rgb(69,129,247)" offset="0.862691343" stop-opacity="0" />
+		</linearGradient>
+	</defs>
+	<g id="Сочетание 1">
+		<rect id="Rectangle 40" width="1440.000000" height="604.915588" x="0.000000" y="20.084412" fill="url(#paint_linear_1)" />
+		<rect id="Rectangle 75" width="1443.285767" height="240.284042" x="0.000000" y="0.000000" fill="url(#paint_linear_2)" transform="matrix(0.983224,-0.182403,0.179547,0.983749,13.9645,263.26)" />
+		<rect id="Rectangle 76" width="868.537231" height="288.793701" x="0.000000" y="0.000000" fill="url(#paint_linear_3)" transform="matrix(0.984382,-0.176047,0.173283,0.984872,590.957,333.518)" />
+	</g>
+</svg>
